@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0214BDC1AFCA6A80082C349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0214BDB1AFCA6A80082C349 /* Foundation.framework */; };
+		B0214BDE1AFCA6A80082C349 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0214BDD1AFCA6A80082C349 /* CoreGraphics.framework */; };
+		B0214BE01AFCA6A80082C349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0214BDF1AFCA6A80082C349 /* UIKit.framework */; };
+		B0214BE61AFCA6A80082C349 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0214BE41AFCA6A80082C349 /* InfoPlist.strings */; };
+		B0214BE81AFCA6A80082C349 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214BE71AFCA6A80082C349 /* main.m */; };
+		B0214BEC1AFCA6A80082C349 /* LCQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214BEB1AFCA6A80082C349 /* LCQAppDelegate.m */; };
+		B0214BEE1AFCA6A80082C349 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0214BED1AFCA6A80082C349 /* Images.xcassets */; };
+		B0214BF51AFCA6A80082C349 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0214BF41AFCA6A80082C349 /* XCTest.framework */; };
+		B0214BF61AFCA6A80082C349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0214BDB1AFCA6A80082C349 /* Foundation.framework */; };
+		B0214BF71AFCA6A80082C349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0214BDF1AFCA6A80082C349 /* UIKit.framework */; };
+		B0214BFF1AFCA6A80082C349 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0214BFD1AFCA6A80082C349 /* InfoPlist.strings */; };
+		B0214C011AFCA6A80082C349 /* UIRefreshControl__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C001AFCA6A80082C349 /* UIRefreshControl__Tests.m */; };
+		B0214C0D1AFCA6BD0082C349 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C0C1AFCA6BD0082C349 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C281AFCA6C90082C349 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C101AFCA6C90082C349 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C291AFCA6C90082C349 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C131AFCA6C90082C349 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C2A1AFCA6C90082C349 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C151AFCA6C90082C349 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C2B1AFCA6C90082C349 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C171AFCA6C90082C349 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C2C1AFCA6C90082C349 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C191AFCA6C90082C349 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C2D1AFCA6C90082C349 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C1B1AFCA6C90082C349 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C2E1AFCA6C90082C349 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C1F1AFCA6C90082C349 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C2F1AFCA6C90082C349 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C211AFCA6C90082C349 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C301AFCA6C90082C349 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C251AFCA6C90082C349 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C311AFCA6C90082C349 /* 框架使用注意事项ASIHTTPRequest.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B0214C271AFCA6C90082C349 /* 框架使用注意事项ASIHTTPRequest.rtf */; };
+		B0214C341AFCA6E40082C349 /* LCQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C331AFCA6E40082C349 /* LCQTableViewController.m */; };
+		B0214C361AFCA7230082C349 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0214C351AFCA7230082C349 /* MobileCoreServices.framework */; };
+		B0214C381AFCA72A0082C349 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0214C371AFCA7290082C349 /* libz.1.2.5.dylib */; };
+		B0214C3C1AFCAEC30082C349 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B0214C3B1AFCAEC30082C349 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0214C3E1AFCAED10082C349 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0214C3D1AFCAED10082C349 /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0214BF81AFCA6A80082C349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0214BD01AFCA6A80082C349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0214BD71AFCA6A80082C349;
+			remoteInfo = "UIRefreshControl使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0214BD81AFCA6A80082C349 /* UIRefreshControl使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIRefreshControl使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0214BDB1AFCA6A80082C349 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0214BDD1AFCA6A80082C349 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0214BDF1AFCA6A80082C349 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0214BE31AFCA6A80082C349 /* UIRefreshControl使用-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIRefreshControl使用-Info.plist"; sourceTree = "<group>"; };
+		B0214BE51AFCA6A80082C349 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0214BE71AFCA6A80082C349 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0214BE91AFCA6A80082C349 /* UIRefreshControl使用-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl使用-Prefix.pch"; sourceTree = "<group>"; };
+		B0214BEA1AFCA6A80082C349 /* LCQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCQAppDelegate.h; sourceTree = "<group>"; };
+		B0214BEB1AFCA6A80082C349 /* LCQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCQAppDelegate.m; sourceTree = "<group>"; };
+		B0214BED1AFCA6A80082C349 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0214BF31AFCA6A80082C349 /* UIRefreshControl使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIRefreshControl使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0214BF41AFCA6A80082C349 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B0214BFC1AFCA6A80082C349 /* UIRefreshControl使用Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIRefreshControl使用Tests-Info.plist"; sourceTree = "<group>"; };
+		B0214BFE1AFCA6A80082C349 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0214C001AFCA6A80082C349 /* UIRefreshControl__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIRefreshControl__Tests.m; sourceTree = "<group>"; };
+		B0214C0B1AFCA6BD0082C349 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B0214C0C1AFCA6BD0082C349 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B0214C0F1AFCA6C90082C349 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		B0214C101AFCA6C90082C349 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		B0214C111AFCA6C90082C349 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		B0214C121AFCA6C90082C349 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		B0214C131AFCA6C90082C349 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		B0214C141AFCA6C90082C349 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		B0214C151AFCA6C90082C349 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		B0214C161AFCA6C90082C349 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		B0214C171AFCA6C90082C349 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		B0214C181AFCA6C90082C349 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		B0214C191AFCA6C90082C349 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		B0214C1A1AFCA6C90082C349 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		B0214C1B1AFCA6C90082C349 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		B0214C1C1AFCA6C90082C349 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		B0214C1D1AFCA6C90082C349 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		B0214C1E1AFCA6C90082C349 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		B0214C1F1AFCA6C90082C349 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		B0214C201AFCA6C90082C349 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		B0214C211AFCA6C90082C349 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		B0214C221AFCA6C90082C349 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		B0214C241AFCA6C90082C349 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B0214C251AFCA6C90082C349 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B0214C261AFCA6C90082C349 /* Reachability用法.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reachability用法.h"; sourceTree = "<group>"; };
+		B0214C271AFCA6C90082C349 /* 框架使用注意事项ASIHTTPRequest.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "框架使用注意事项ASIHTTPRequest.rtf"; sourceTree = "<group>"; };
+		B0214C321AFCA6E40082C349 /* LCQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQTableViewController.h; sourceTree = "<group>"; };
+		B0214C331AFCA6E40082C349 /* LCQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQTableViewController.m; sourceTree = "<group>"; };
+		B0214C351AFCA7230082C349 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B0214C371AFCA7290082C349 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		B0214C3A1AFCAEC30082C349 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		B0214C3B1AFCAEC30082C349 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		B0214C3D1AFCAED10082C349 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0214BD51AFCA6A80082C349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0214C3E1AFCAED10082C349 /* libxml2.dylib in Frameworks */,
+				B0214C381AFCA72A0082C349 /* libz.1.2.5.dylib in Frameworks */,
+				B0214C361AFCA7230082C349 /* MobileCoreServices.framework in Frameworks */,
+				B0214BDE1AFCA6A80082C349 /* CoreGraphics.framework in Frameworks */,
+				B0214BE01AFCA6A80082C349 /* UIKit.framework in Frameworks */,
+				B0214BDC1AFCA6A80082C349 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0214BF01AFCA6A80082C349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0214BF51AFCA6A80082C349 /* XCTest.framework in Frameworks */,
+				B0214BF71AFCA6A80082C349 /* UIKit.framework in Frameworks */,
+				B0214BF61AFCA6A80082C349 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0214BCF1AFCA6A80082C349 = {
+			isa = PBXGroup;
+			children = (
+				B0214BE11AFCA6A80082C349 /* UIRefreshControl使用 */,
+				B0214BFA1AFCA6A80082C349 /* UIRefreshControl使用Tests */,
+				B0214BDA1AFCA6A80082C349 /* Frameworks */,
+				B0214BD91AFCA6A80082C349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0214BD91AFCA6A80082C349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0214BD81AFCA6A80082C349 /* UIRefreshControl使用.app */,
+				B0214BF31AFCA6A80082C349 /* UIRefreshControl使用Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0214BDA1AFCA6A80082C349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0214C3D1AFCAED10082C349 /* libxml2.dylib */,
+				B0214C371AFCA7290082C349 /* libz.1.2.5.dylib */,
+				B0214C351AFCA7230082C349 /* MobileCoreServices.framework */,
+				B0214BDB1AFCA6A80082C349 /* Foundation.framework */,
+				B0214BDD1AFCA6A80082C349 /* CoreGraphics.framework */,
+				B0214BDF1AFCA6A80082C349 /* UIKit.framework */,
+				B0214BF41AFCA6A80082C349 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0214BE11AFCA6A80082C349 /* UIRefreshControl使用 */ = {
+			isa = PBXGroup;
+			children = (
+				B0214C391AFCAEC30082C349 /* GDataXMLNode */,
+				B0214C0E1AFCA6C90082C349 /* ASIHttpRequst */,
+				B0214C0A1AFCA6BD0082C349 /* ProgressHUD */,
+				B0214BEA1AFCA6A80082C349 /* LCQAppDelegate.h */,
+				B0214BEB1AFCA6A80082C349 /* LCQAppDelegate.m */,
+				B0214C321AFCA6E40082C349 /* LCQTableViewController.h */,
+				B0214C331AFCA6E40082C349 /* LCQTableViewController.m */,
+				B0214BED1AFCA6A80082C349 /* Images.xcassets */,
+				B0214BE21AFCA6A80082C349 /* Supporting Files */,
+			);
+			path = "UIRefreshControl使用";
+			sourceTree = "<group>";
+		};
+		B0214BE21AFCA6A80082C349 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0214BE31AFCA6A80082C349 /* UIRefreshControl使用-Info.plist */,
+				B0214BE41AFCA6A80082C349 /* InfoPlist.strings */,
+				B0214BE71AFCA6A80082C349 /* main.m */,
+				B0214BE91AFCA6A80082C349 /* UIRefreshControl使用-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0214BFA1AFCA6A80082C349 /* UIRefreshControl使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B0214C001AFCA6A80082C349 /* UIRefreshControl__Tests.m */,
+				B0214BFB1AFCA6A80082C349 /* Supporting Files */,
+			);
+			path = "UIRefreshControl使用Tests";
+			sourceTree = "<group>";
+		};
+		B0214BFB1AFCA6A80082C349 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0214BFC1AFCA6A80082C349 /* UIRefreshControl使用Tests-Info.plist */,
+				B0214BFD1AFCA6A80082C349 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0214C0A1AFCA6BD0082C349 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B0214C0B1AFCA6BD0082C349 /* MBProgressHUD.h */,
+				B0214C0C1AFCA6BD0082C349 /* MBProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		B0214C0E1AFCA6C90082C349 /* ASIHttpRequst */ = {
+			isa = PBXGroup;
+			children = (
+				B0214C0F1AFCA6C90082C349 /* ASIAuthenticationDialog.h */,
+				B0214C101AFCA6C90082C349 /* ASIAuthenticationDialog.m */,
+				B0214C111AFCA6C90082C349 /* ASICacheDelegate.h */,
+				B0214C121AFCA6C90082C349 /* ASIDataCompressor.h */,
+				B0214C131AFCA6C90082C349 /* ASIDataCompressor.m */,
+				B0214C141AFCA6C90082C349 /* ASIDataDecompressor.h */,
+				B0214C151AFCA6C90082C349 /* ASIDataDecompressor.m */,
+				B0214C161AFCA6C90082C349 /* ASIDownloadCache.h */,
+				B0214C171AFCA6C90082C349 /* ASIDownloadCache.m */,
+				B0214C181AFCA6C90082C349 /* ASIFormDataRequest.h */,
+				B0214C191AFCA6C90082C349 /* ASIFormDataRequest.m */,
+				B0214C1A1AFCA6C90082C349 /* ASIHTTPRequest.h */,
+				B0214C1B1AFCA6C90082C349 /* ASIHTTPRequest.m */,
+				B0214C1C1AFCA6C90082C349 /* ASIHTTPRequestConfig.h */,
+				B0214C1D1AFCA6C90082C349 /* ASIHTTPRequestDelegate.h */,
+				B0214C1E1AFCA6C90082C349 /* ASIInputStream.h */,
+				B0214C1F1AFCA6C90082C349 /* ASIInputStream.m */,
+				B0214C201AFCA6C90082C349 /* ASINetworkQueue.h */,
+				B0214C211AFCA6C90082C349 /* ASINetworkQueue.m */,
+				B0214C221AFCA6C90082C349 /* ASIProgressDelegate.h */,
+				B0214C231AFCA6C90082C349 /* Reachability */,
+				B0214C271AFCA6C90082C349 /* 框架使用注意事项ASIHTTPRequest.rtf */,
+			);
+			path = ASIHttpRequst;
+			sourceTree = "<group>";
+		};
+		B0214C231AFCA6C90082C349 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B0214C241AFCA6C90082C349 /* Reachability.h */,
+				B0214C251AFCA6C90082C349 /* Reachability.m */,
+				B0214C261AFCA6C90082C349 /* Reachability用法.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		B0214C391AFCAEC30082C349 /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				B0214C3A1AFCAEC30082C349 /* GDataXMLNode.h */,
+				B0214C3B1AFCAEC30082C349 /* GDataXMLNode.m */,
+			);
+			path = GDataXMLNode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0214BD71AFCA6A80082C349 /* UIRefreshControl使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0214C041AFCA6A80082C349 /* Build configuration list for PBXNativeTarget "UIRefreshControl使用" */;
+			buildPhases = (
+				B0214BD41AFCA6A80082C349 /* Sources */,
+				B0214BD51AFCA6A80082C349 /* Frameworks */,
+				B0214BD61AFCA6A80082C349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIRefreshControl使用";
+			productName = "UIRefreshControl使用";
+			productReference = B0214BD81AFCA6A80082C349 /* UIRefreshControl使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0214BF21AFCA6A80082C349 /* UIRefreshControl使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0214C071AFCA6A80082C349 /* Build configuration list for PBXNativeTarget "UIRefreshControl使用Tests" */;
+			buildPhases = (
+				B0214BEF1AFCA6A80082C349 /* Sources */,
+				B0214BF01AFCA6A80082C349 /* Frameworks */,
+				B0214BF11AFCA6A80082C349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0214BF91AFCA6A80082C349 /* PBXTargetDependency */,
+			);
+			name = "UIRefreshControl使用Tests";
+			productName = "UIRefreshControl使用Tests";
+			productReference = B0214BF31AFCA6A80082C349 /* UIRefreshControl使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0214BD01AFCA6A80082C349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCQ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = liuchaoqian;
+				TargetAttributes = {
+					B0214BF21AFCA6A80082C349 = {
+						TestTargetID = B0214BD71AFCA6A80082C349;
+					};
+				};
+			};
+			buildConfigurationList = B0214BD31AFCA6A80082C349 /* Build configuration list for PBXProject "UIRefreshControl使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0214BCF1AFCA6A80082C349;
+			productRefGroup = B0214BD91AFCA6A80082C349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0214BD71AFCA6A80082C349 /* UIRefreshControl使用 */,
+				B0214BF21AFCA6A80082C349 /* UIRefreshControl使用Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0214BD61AFCA6A80082C349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0214BE61AFCA6A80082C349 /* InfoPlist.strings in Resources */,
+				B0214BEE1AFCA6A80082C349 /* Images.xcassets in Resources */,
+				B0214C311AFCA6C90082C349 /* 框架使用注意事项ASIHTTPRequest.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0214BF11AFCA6A80082C349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0214BFF1AFCA6A80082C349 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0214BD41AFCA6A80082C349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0214C341AFCA6E40082C349 /* LCQTableViewController.m in Sources */,
+				B0214C3C1AFCAEC30082C349 /* GDataXMLNode.m in Sources */,
+				B0214BEC1AFCA6A80082C349 /* LCQAppDelegate.m in Sources */,
+				B0214BE81AFCA6A80082C349 /* main.m in Sources */,
+				B0214C291AFCA6C90082C349 /* ASIDataCompressor.m in Sources */,
+				B0214C2D1AFCA6C90082C349 /* ASIHTTPRequest.m in Sources */,
+				B0214C281AFCA6C90082C349 /* ASIAuthenticationDialog.m in Sources */,
+				B0214C2C1AFCA6C90082C349 /* ASIFormDataRequest.m in Sources */,
+				B0214C0D1AFCA6BD0082C349 /* MBProgressHUD.m in Sources */,
+				B0214C2E1AFCA6C90082C349 /* ASIInputStream.m in Sources */,
+				B0214C2F1AFCA6C90082C349 /* ASINetworkQueue.m in Sources */,
+				B0214C2A1AFCA6C90082C349 /* ASIDataDecompressor.m in Sources */,
+				B0214C301AFCA6C90082C349 /* Reachability.m in Sources */,
+				B0214C2B1AFCA6C90082C349 /* ASIDownloadCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0214BEF1AFCA6A80082C349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0214C011AFCA6A80082C349 /* UIRefreshControl__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0214BF91AFCA6A80082C349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0214BD71AFCA6A80082C349 /* UIRefreshControl使用 */;
+			targetProxy = B0214BF81AFCA6A80082C349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0214BE41AFCA6A80082C349 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0214BE51AFCA6A80082C349 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0214BFD1AFCA6A80082C349 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0214BFE1AFCA6A80082C349 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0214C021AFCA6A80082C349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0214C031AFCA6A80082C349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0214C051AFCA6A80082C349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRefreshControl使用/UIRefreshControl使用-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "UIRefreshControl使用/UIRefreshControl使用-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0214C061AFCA6A80082C349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRefreshControl使用/UIRefreshControl使用-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "UIRefreshControl使用/UIRefreshControl使用-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B0214C081AFCA6A80082C349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIRefreshControl使用.app/UIRefreshControl使用";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRefreshControl使用/UIRefreshControl使用-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIRefreshControl使用Tests/UIRefreshControl使用Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B0214C091AFCA6A80082C349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIRefreshControl使用.app/UIRefreshControl使用";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRefreshControl使用/UIRefreshControl使用-Prefix.pch";
+				INFOPLIST_FILE = "UIRefreshControl使用Tests/UIRefreshControl使用Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0214BD31AFCA6A80082C349 /* Build configuration list for PBXProject "UIRefreshControl使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0214C021AFCA6A80082C349 /* Debug */,
+				B0214C031AFCA6A80082C349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0214C041AFCA6A80082C349 /* Build configuration list for PBXNativeTarget "UIRefreshControl使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0214C051AFCA6A80082C349 /* Debug */,
+				B0214C061AFCA6A80082C349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0214C071AFCA6A80082C349 /* Build configuration list for PBXNativeTarget "UIRefreshControl使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0214C081AFCA6A80082C349 /* Debug */,
+				B0214C091AFCA6A80082C349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0214BD01AFCA6A80082C349 /* Project object */;
+}

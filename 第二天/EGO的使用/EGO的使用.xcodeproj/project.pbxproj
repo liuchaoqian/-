@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04DD1981AFB236000E32510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04DD1971AFB236000E32510 /* Foundation.framework */; };
+		B04DD19A1AFB236000E32510 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04DD1991AFB236000E32510 /* CoreGraphics.framework */; };
+		B04DD19C1AFB236000E32510 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04DD19B1AFB236000E32510 /* UIKit.framework */; };
+		B04DD1A21AFB236000E32510 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B04DD1A01AFB236000E32510 /* InfoPlist.strings */; };
+		B04DD1A41AFB236000E32510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1A31AFB236000E32510 /* main.m */; };
+		B04DD1A81AFB236000E32510 /* LCQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1A71AFB236000E32510 /* LCQAppDelegate.m */; };
+		B04DD1AB1AFB236000E32510 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04DD1A91AFB236000E32510 /* Main_iPhone.storyboard */; };
+		B04DD1AE1AFB236000E32510 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04DD1AC1AFB236000E32510 /* Main_iPad.storyboard */; };
+		B04DD1B31AFB236000E32510 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04DD1B21AFB236000E32510 /* Images.xcassets */; };
+		B04DD1BA1AFB236000E32510 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04DD1B91AFB236000E32510 /* XCTest.framework */; };
+		B04DD1BB1AFB236000E32510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04DD1971AFB236000E32510 /* Foundation.framework */; };
+		B04DD1BC1AFB236000E32510 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04DD19B1AFB236000E32510 /* UIKit.framework */; };
+		B04DD1C41AFB236000E32510 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B04DD1C21AFB236000E32510 /* InfoPlist.strings */; };
+		B04DD1C61AFB236000E32510 /* EGO___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1C51AFB236000E32510 /* EGO___Tests.m */; };
+		B04DD1E01AFB236C00E32510 /* AnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1D11AFB236C00E32510 /* AnimatedImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD1E11AFB236C00E32510 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1D31AFB236C00E32510 /* EGOCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD1E21AFB236C00E32510 /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1D51AFB236C00E32510 /* EGOImageButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD1E31AFB236C00E32510 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1D71AFB236C00E32510 /* EGOImageLoadConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD1E41AFB236C00E32510 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1D91AFB236C00E32510 /* EGOImageLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD1E51AFB236C00E32510 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1DB1AFB236C00E32510 /* EGOImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD1E61AFB236C00E32510 /* EGOImageViewEx.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1DD1AFB236C00E32510 /* EGOImageViewEx.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD1E71AFB236C00E32510 /* GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1DF1AFB236C00E32510 /* GifImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD2011AFB263400E32510 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1EA1AFB263400E32510 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD2021AFB263400E32510 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1ED1AFB263400E32510 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD2031AFB263400E32510 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1EF1AFB263400E32510 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD2041AFB263400E32510 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1F11AFB263400E32510 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD2051AFB263400E32510 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1F31AFB263400E32510 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD2061AFB263400E32510 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1F51AFB263400E32510 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD2071AFB263400E32510 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1F91AFB263400E32510 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD2081AFB263400E32510 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1FB1AFB263400E32510 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD2091AFB263400E32510 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1FF1AFB263400E32510 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B04DD20C1AFB267600E32510 /* LCQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD20B1AFB267600E32510 /* LCQViewController.m */; };
+		B04DD20E1AFB270900E32510 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = B04DD20D1AFB270900E32510 /* photo.png */; };
+		B04DD2101AFB286E00E32510 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04DD20F1AFB286E00E32510 /* MobileCoreServices.framework */; };
+		B04DD2121AFB287500E32510 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B04DD2111AFB287500E32510 /* libz.1.2.5.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04DD1BD1AFB236000E32510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04DD18C1AFB236000E32510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04DD1931AFB236000E32510;
+			remoteInfo = "EGO的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B04DD1941AFB236000E32510 /* EGO的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EGO的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04DD1971AFB236000E32510 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B04DD1991AFB236000E32510 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B04DD19B1AFB236000E32510 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B04DD19F1AFB236000E32510 /* EGO的使用-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EGO的使用-Info.plist"; sourceTree = "<group>"; };
+		B04DD1A11AFB236000E32510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B04DD1A31AFB236000E32510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B04DD1A51AFB236000E32510 /* EGO的使用-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EGO的使用-Prefix.pch"; sourceTree = "<group>"; };
+		B04DD1A61AFB236000E32510 /* LCQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCQAppDelegate.h; sourceTree = "<group>"; };
+		B04DD1A71AFB236000E32510 /* LCQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCQAppDelegate.m; sourceTree = "<group>"; };
+		B04DD1AA1AFB236000E32510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B04DD1AD1AFB236000E32510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B04DD1B21AFB236000E32510 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B04DD1B81AFB236000E32510 /* EGO的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EGO的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04DD1B91AFB236000E32510 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B04DD1C11AFB236000E32510 /* EGO的使用Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EGO的使用Tests-Info.plist"; sourceTree = "<group>"; };
+		B04DD1C31AFB236000E32510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B04DD1C51AFB236000E32510 /* EGO___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "EGO___Tests.m"; sourceTree = "<group>"; };
+		B04DD1D01AFB236C00E32510 /* AnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedImageView.h; sourceTree = "<group>"; };
+		B04DD1D11AFB236C00E32510 /* AnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedImageView.m; sourceTree = "<group>"; };
+		B04DD1D21AFB236C00E32510 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		B04DD1D31AFB236C00E32510 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		B04DD1D41AFB236C00E32510 /* EGOImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageButton.h; sourceTree = "<group>"; };
+		B04DD1D51AFB236C00E32510 /* EGOImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageButton.m; sourceTree = "<group>"; };
+		B04DD1D61AFB236C00E32510 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		B04DD1D71AFB236C00E32510 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		B04DD1D81AFB236C00E32510 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		B04DD1D91AFB236C00E32510 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		B04DD1DA1AFB236C00E32510 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		B04DD1DB1AFB236C00E32510 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		B04DD1DC1AFB236C00E32510 /* EGOImageViewEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageViewEx.h; sourceTree = "<group>"; };
+		B04DD1DD1AFB236C00E32510 /* EGOImageViewEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageViewEx.m; sourceTree = "<group>"; };
+		B04DD1DE1AFB236C00E32510 /* GifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifImageView.h; sourceTree = "<group>"; };
+		B04DD1DF1AFB236C00E32510 /* GifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifImageView.m; sourceTree = "<group>"; };
+		B04DD1E91AFB263400E32510 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		B04DD1EA1AFB263400E32510 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		B04DD1EB1AFB263400E32510 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		B04DD1EC1AFB263400E32510 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		B04DD1ED1AFB263400E32510 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		B04DD1EE1AFB263400E32510 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		B04DD1EF1AFB263400E32510 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		B04DD1F01AFB263400E32510 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		B04DD1F11AFB263400E32510 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		B04DD1F21AFB263400E32510 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		B04DD1F31AFB263400E32510 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		B04DD1F41AFB263400E32510 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		B04DD1F51AFB263400E32510 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		B04DD1F61AFB263400E32510 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		B04DD1F71AFB263400E32510 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		B04DD1F81AFB263400E32510 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		B04DD1F91AFB263400E32510 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		B04DD1FA1AFB263400E32510 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		B04DD1FB1AFB263400E32510 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		B04DD1FC1AFB263400E32510 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		B04DD1FE1AFB263400E32510 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B04DD1FF1AFB263400E32510 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B04DD2001AFB263400E32510 /* Reachability用法.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reachability用法.h"; sourceTree = "<group>"; };
+		B04DD20A1AFB267600E32510 /* LCQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQViewController.h; sourceTree = "<group>"; };
+		B04DD20B1AFB267600E32510 /* LCQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQViewController.m; sourceTree = "<group>"; };
+		B04DD20D1AFB270900E32510 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		B04DD20F1AFB286E00E32510 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B04DD2111AFB287500E32510 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B04DD1911AFB236000E32510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04DD2121AFB287500E32510 /* libz.1.2.5.dylib in Frameworks */,
+				B04DD2101AFB286E00E32510 /* MobileCoreServices.framework in Frameworks */,
+				B04DD19A1AFB236000E32510 /* CoreGraphics.framework in Frameworks */,
+				B04DD19C1AFB236000E32510 /* UIKit.framework in Frameworks */,
+				B04DD1981AFB236000E32510 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04DD1B51AFB236000E32510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04DD1BA1AFB236000E32510 /* XCTest.framework in Frameworks */,
+				B04DD1BC1AFB236000E32510 /* UIKit.framework in Frameworks */,
+				B04DD1BB1AFB236000E32510 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04DD18B1AFB236000E32510 = {
+			isa = PBXGroup;
+			children = (
+				B04DD19D1AFB236000E32510 /* EGO的使用 */,
+				B04DD1BF1AFB236000E32510 /* EGO的使用Tests */,
+				B04DD1961AFB236000E32510 /* Frameworks */,
+				B04DD1951AFB236000E32510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B04DD1951AFB236000E32510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD1941AFB236000E32510 /* EGO的使用.app */,
+				B04DD1B81AFB236000E32510 /* EGO的使用Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B04DD1961AFB236000E32510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD2111AFB287500E32510 /* libz.1.2.5.dylib */,
+				B04DD20F1AFB286E00E32510 /* MobileCoreServices.framework */,
+				B04DD1971AFB236000E32510 /* Foundation.framework */,
+				B04DD1991AFB236000E32510 /* CoreGraphics.framework */,
+				B04DD19B1AFB236000E32510 /* UIKit.framework */,
+				B04DD1B91AFB236000E32510 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B04DD19D1AFB236000E32510 /* EGO的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD20D1AFB270900E32510 /* photo.png */,
+				B04DD1E81AFB263400E32510 /* ASIHttpRequst */,
+				B04DD1CF1AFB236C00E32510 /* EGO */,
+				B04DD1A61AFB236000E32510 /* LCQAppDelegate.h */,
+				B04DD1A71AFB236000E32510 /* LCQAppDelegate.m */,
+				B04DD1A91AFB236000E32510 /* Main_iPhone.storyboard */,
+				B04DD1AC1AFB236000E32510 /* Main_iPad.storyboard */,
+				B04DD20A1AFB267600E32510 /* LCQViewController.h */,
+				B04DD20B1AFB267600E32510 /* LCQViewController.m */,
+				B04DD1B21AFB236000E32510 /* Images.xcassets */,
+				B04DD19E1AFB236000E32510 /* Supporting Files */,
+			);
+			path = "EGO的使用";
+			sourceTree = "<group>";
+		};
+		B04DD19E1AFB236000E32510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD19F1AFB236000E32510 /* EGO的使用-Info.plist */,
+				B04DD1A01AFB236000E32510 /* InfoPlist.strings */,
+				B04DD1A31AFB236000E32510 /* main.m */,
+				B04DD1A51AFB236000E32510 /* EGO的使用-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B04DD1BF1AFB236000E32510 /* EGO的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD1C51AFB236000E32510 /* EGO___Tests.m */,
+				B04DD1C01AFB236000E32510 /* Supporting Files */,
+			);
+			path = "EGO的使用Tests";
+			sourceTree = "<group>";
+		};
+		B04DD1C01AFB236000E32510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD1C11AFB236000E32510 /* EGO的使用Tests-Info.plist */,
+				B04DD1C21AFB236000E32510 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B04DD1CF1AFB236C00E32510 /* EGO */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD1D01AFB236C00E32510 /* AnimatedImageView.h */,
+				B04DD1D11AFB236C00E32510 /* AnimatedImageView.m */,
+				B04DD1D21AFB236C00E32510 /* EGOCache.h */,
+				B04DD1D31AFB236C00E32510 /* EGOCache.m */,
+				B04DD1D41AFB236C00E32510 /* EGOImageButton.h */,
+				B04DD1D51AFB236C00E32510 /* EGOImageButton.m */,
+				B04DD1D61AFB236C00E32510 /* EGOImageLoadConnection.h */,
+				B04DD1D71AFB236C00E32510 /* EGOImageLoadConnection.m */,
+				B04DD1D81AFB236C00E32510 /* EGOImageLoader.h */,
+				B04DD1D91AFB236C00E32510 /* EGOImageLoader.m */,
+				B04DD1DA1AFB236C00E32510 /* EGOImageView.h */,
+				B04DD1DB1AFB236C00E32510 /* EGOImageView.m */,
+				B04DD1DC1AFB236C00E32510 /* EGOImageViewEx.h */,
+				B04DD1DD1AFB236C00E32510 /* EGOImageViewEx.m */,
+				B04DD1DE1AFB236C00E32510 /* GifImageView.h */,
+				B04DD1DF1AFB236C00E32510 /* GifImageView.m */,
+			);
+			path = EGO;
+			sourceTree = "<group>";
+		};
+		B04DD1E81AFB263400E32510 /* ASIHttpRequst */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD1E91AFB263400E32510 /* ASIAuthenticationDialog.h */,
+				B04DD1EA1AFB263400E32510 /* ASIAuthenticationDialog.m */,
+				B04DD1EB1AFB263400E32510 /* ASICacheDelegate.h */,
+				B04DD1EC1AFB263400E32510 /* ASIDataCompressor.h */,
+				B04DD1ED1AFB263400E32510 /* ASIDataCompressor.m */,
+				B04DD1EE1AFB263400E32510 /* ASIDataDecompressor.h */,
+				B04DD1EF1AFB263400E32510 /* ASIDataDecompressor.m */,
+				B04DD1F01AFB263400E32510 /* ASIDownloadCache.h */,
+				B04DD1F11AFB263400E32510 /* ASIDownloadCache.m */,
+				B04DD1F21AFB263400E32510 /* ASIFormDataRequest.h */,
+				B04DD1F31AFB263400E32510 /* ASIFormDataRequest.m */,
+				B04DD1F41AFB263400E32510 /* ASIHTTPRequest.h */,
+				B04DD1F51AFB263400E32510 /* ASIHTTPRequest.m */,
+				B04DD1F61AFB263400E32510 /* ASIHTTPRequestConfig.h */,
+				B04DD1F71AFB263400E32510 /* ASIHTTPRequestDelegate.h */,
+				B04DD1F81AFB263400E32510 /* ASIInputStream.h */,
+				B04DD1F91AFB263400E32510 /* ASIInputStream.m */,
+				B04DD1FA1AFB263400E32510 /* ASINetworkQueue.h */,
+				B04DD1FB1AFB263400E32510 /* ASINetworkQueue.m */,
+				B04DD1FC1AFB263400E32510 /* ASIProgressDelegate.h */,
+				B04DD1FD1AFB263400E32510 /* Reachability */,
+			);
+			path = ASIHttpRequst;
+			sourceTree = "<group>";
+		};
+		B04DD1FD1AFB263400E32510 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD1FE1AFB263400E32510 /* Reachability.h */,
+				B04DD1FF1AFB263400E32510 /* Reachability.m */,
+				B04DD2001AFB263400E32510 /* Reachability用法.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B04DD1931AFB236000E32510 /* EGO的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04DD1C91AFB236000E32510 /* Build configuration list for PBXNativeTarget "EGO的使用" */;
+			buildPhases = (
+				B04DD1901AFB236000E32510 /* Sources */,
+				B04DD1911AFB236000E32510 /* Frameworks */,
+				B04DD1921AFB236000E32510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EGO的使用";
+			productName = "EGO的使用";
+			productReference = B04DD1941AFB236000E32510 /* EGO的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04DD1B71AFB236000E32510 /* EGO的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04DD1CC1AFB236000E32510 /* Build configuration list for PBXNativeTarget "EGO的使用Tests" */;
+			buildPhases = (
+				B04DD1B41AFB236000E32510 /* Sources */,
+				B04DD1B51AFB236000E32510 /* Frameworks */,
+				B04DD1B61AFB236000E32510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04DD1BE1AFB236000E32510 /* PBXTargetDependency */,
+			);
+			name = "EGO的使用Tests";
+			productName = "EGO的使用Tests";
+			productReference = B04DD1B81AFB236000E32510 /* EGO的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B04DD18C1AFB236000E32510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCQ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = liuchaoqian;
+				TargetAttributes = {
+					B04DD1B71AFB236000E32510 = {
+						TestTargetID = B04DD1931AFB236000E32510;
+					};
+				};
+			};
+			buildConfigurationList = B04DD18F1AFB236000E32510 /* Build configuration list for PBXProject "EGO的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B04DD18B1AFB236000E32510;
+			productRefGroup = B04DD1951AFB236000E32510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B04DD1931AFB236000E32510 /* EGO的使用 */,
+				B04DD1B71AFB236000E32510 /* EGO的使用Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04DD1921AFB236000E32510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04DD1AE1AFB236000E32510 /* Main_iPad.storyboard in Resources */,
+				B04DD1B31AFB236000E32510 /* Images.xcassets in Resources */,
+				B04DD20E1AFB270900E32510 /* photo.png in Resources */,
+				B04DD1AB1AFB236000E32510 /* Main_iPhone.storyboard in Resources */,
+				B04DD1A21AFB236000E32510 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04DD1B61AFB236000E32510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04DD1C41AFB236000E32510 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B04DD1901AFB236000E32510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04DD1A41AFB236000E32510 /* main.m in Sources */,
+				B04DD1A81AFB236000E32510 /* LCQAppDelegate.m in Sources */,
+				B04DD2011AFB263400E32510 /* ASIAuthenticationDialog.m in Sources */,
+				B04DD2041AFB263400E32510 /* ASIDownloadCache.m in Sources */,
+				B04DD2051AFB263400E32510 /* ASIFormDataRequest.m in Sources */,
+				B04DD2081AFB263400E32510 /* ASINetworkQueue.m in Sources */,
+				B04DD1E51AFB236C00E32510 /* EGOImageView.m in Sources */,
+				B04DD2061AFB263400E32510 /* ASIHTTPRequest.m in Sources */,
+				B04DD1E41AFB236C00E32510 /* EGOImageLoader.m in Sources */,
+				B04DD1E71AFB236C00E32510 /* GifImageView.m in Sources */,
+				B04DD1E21AFB236C00E32510 /* EGOImageButton.m in Sources */,
+				B04DD2021AFB263400E32510 /* ASIDataCompressor.m in Sources */,
+				B04DD1E31AFB236C00E32510 /* EGOImageLoadConnection.m in Sources */,
+				B04DD20C1AFB267600E32510 /* LCQViewController.m in Sources */,
+				B04DD2091AFB263400E32510 /* Reachability.m in Sources */,
+				B04DD1E01AFB236C00E32510 /* AnimatedImageView.m in Sources */,
+				B04DD2071AFB263400E32510 /* ASIInputStream.m in Sources */,
+				B04DD2031AFB263400E32510 /* ASIDataDecompressor.m in Sources */,
+				B04DD1E11AFB236C00E32510 /* EGOCache.m in Sources */,
+				B04DD1E61AFB236C00E32510 /* EGOImageViewEx.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04DD1B41AFB236000E32510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04DD1C61AFB236000E32510 /* EGO___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04DD1BE1AFB236000E32510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04DD1931AFB236000E32510 /* EGO的使用 */;
+			targetProxy = B04DD1BD1AFB236000E32510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B04DD1A01AFB236000E32510 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04DD1A11AFB236000E32510 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B04DD1A91AFB236000E32510 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04DD1AA1AFB236000E32510 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B04DD1AC1AFB236000E32510 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04DD1AD1AFB236000E32510 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B04DD1C21AFB236000E32510 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04DD1C31AFB236000E32510 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B04DD1C71AFB236000E32510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B04DD1C81AFB236000E32510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B04DD1CA1AFB236000E32510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGO的使用/EGO的使用-Prefix.pch";
+				INFOPLIST_FILE = "EGO的使用/EGO的使用-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B04DD1CB1AFB236000E32510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGO的使用/EGO的使用-Prefix.pch";
+				INFOPLIST_FILE = "EGO的使用/EGO的使用-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B04DD1CD1AFB236000E32510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EGO的使用.app/EGO的使用";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGO的使用/EGO的使用-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EGO的使用Tests/EGO的使用Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B04DD1CE1AFB236000E32510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EGO的使用.app/EGO的使用";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGO的使用/EGO的使用-Prefix.pch";
+				INFOPLIST_FILE = "EGO的使用Tests/EGO的使用Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B04DD18F1AFB236000E32510 /* Build configuration list for PBXProject "EGO的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04DD1C71AFB236000E32510 /* Debug */,
+				B04DD1C81AFB236000E32510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04DD1C91AFB236000E32510 /* Build configuration list for PBXNativeTarget "EGO的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04DD1CA1AFB236000E32510 /* Debug */,
+				B04DD1CB1AFB236000E32510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04DD1CC1AFB236000E32510 /* Build configuration list for PBXNativeTarget "EGO的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04DD1CD1AFB236000E32510 /* Debug */,
+				B04DD1CE1AFB236000E32510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B04DD18C1AFB236000E32510 /* Project object */;
+}

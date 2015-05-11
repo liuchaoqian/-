@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <systemConfig>
+      <CityName>北京</CityName>
+      <CityCode>201</CityCode>
+      <ParentCityCode> 0</ParentCityCode>
+      <areaCode>010</areaCode>
+      <AgreementUrl></AgreementUrl>
+    </systemConfig>
+    <systemConfig>
+      <CityName>上海</CityName>
+      <CityCode>202</CityCode>
+      <ParentCityCode> 0</ParentCityCode>
+      <areaCode>010</areaCode>
+      <AgreementUrl></AgreementUrl>
+    </systemConfig>
+</root>

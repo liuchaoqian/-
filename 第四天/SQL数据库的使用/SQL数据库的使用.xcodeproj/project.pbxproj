@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B05885E81AFDB4550051CE84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05885E71AFDB4550051CE84 /* Foundation.framework */; };
+		B05885EA1AFDB4550051CE84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05885E91AFDB4550051CE84 /* CoreGraphics.framework */; };
+		B05885EC1AFDB4550051CE84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05885EB1AFDB4550051CE84 /* UIKit.framework */; };
+		B05885F21AFDB4550051CE84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B05885F01AFDB4550051CE84 /* InfoPlist.strings */; };
+		B05885F41AFDB4550051CE84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B05885F31AFDB4550051CE84 /* main.m */; };
+		B05885F81AFDB4550051CE84 /* LCQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B05885F71AFDB4550051CE84 /* LCQAppDelegate.m */; };
+		B05885FB1AFDB4550051CE84 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05885F91AFDB4550051CE84 /* Main_iPhone.storyboard */; };
+		B05885FE1AFDB4550051CE84 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05885FC1AFDB4550051CE84 /* Main_iPad.storyboard */; };
+		B05886011AFDB4550051CE84 /* LCQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05886001AFDB4550051CE84 /* LCQViewController.m */; };
+		B05886031AFDB4550051CE84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05886021AFDB4550051CE84 /* Images.xcassets */; };
+		B058860A1AFDB4550051CE84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05886091AFDB4550051CE84 /* XCTest.framework */; };
+		B058860B1AFDB4550051CE84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05885E71AFDB4550051CE84 /* Foundation.framework */; };
+		B058860C1AFDB4550051CE84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05885EB1AFDB4550051CE84 /* UIKit.framework */; };
+		B05886141AFDB4550051CE84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B05886121AFDB4550051CE84 /* InfoPlist.strings */; };
+		B05886161AFDB4560051CE84 /* SQL______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B05886151AFDB4560051CE84 /* SQL______Tests.m */; };
+		B05886201AFDB6270051CE84 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B058861F1AFDB6270051CE84 /* libsqlite3.0.dylib */; };
+		B058862D1AFDB90C0051CE84 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B05886231AFDB90C0051CE84 /* FMDatabase.m */; };
+		B058862E1AFDB90C0051CE84 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B05886251AFDB90C0051CE84 /* FMDatabaseAdditions.m */; };
+		B058862F1AFDB90C0051CE84 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B05886271AFDB90C0051CE84 /* FMDatabasePool.m */; };
+		B05886301AFDB90C0051CE84 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B05886291AFDB90C0051CE84 /* FMDatabaseQueue.m */; };
+		B05886311AFDB90C0051CE84 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B058862C1AFDB90C0051CE84 /* FMResultSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B058860D1AFDB4550051CE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B05885DC1AFDB4550051CE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B05885E31AFDB4550051CE84;
+			remoteInfo = "SQL数据库的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B05885E41AFDB4550051CE84 /* SQL数据库的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SQL数据库的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05885E71AFDB4550051CE84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B05885E91AFDB4550051CE84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B05885EB1AFDB4550051CE84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B05885EF1AFDB4550051CE84 /* SQL数据库的使用-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQL数据库的使用-Info.plist"; sourceTree = "<group>"; };
+		B05885F11AFDB4550051CE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B05885F31AFDB4550051CE84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B05885F51AFDB4550051CE84 /* SQL数据库的使用-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQL数据库的使用-Prefix.pch"; sourceTree = "<group>"; };
+		B05885F61AFDB4550051CE84 /* LCQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCQAppDelegate.h; sourceTree = "<group>"; };
+		B05885F71AFDB4550051CE84 /* LCQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCQAppDelegate.m; sourceTree = "<group>"; };
+		B05885FA1AFDB4550051CE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B05885FD1AFDB4550051CE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B05885FF1AFDB4550051CE84 /* LCQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCQViewController.h; sourceTree = "<group>"; };
+		B05886001AFDB4550051CE84 /* LCQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCQViewController.m; sourceTree = "<group>"; };
+		B05886021AFDB4550051CE84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B05886081AFDB4550051CE84 /* SQL数据库的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SQL数据库的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05886091AFDB4550051CE84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B05886111AFDB4550051CE84 /* SQL数据库的使用Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQL数据库的使用Tests-Info.plist"; sourceTree = "<group>"; };
+		B05886131AFDB4550051CE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B05886151AFDB4560051CE84 /* SQL______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SQL______Tests.m"; sourceTree = "<group>"; };
+		B058861F1AFDB6270051CE84 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		B05886221AFDB90C0051CE84 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B05886231AFDB90C0051CE84 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B05886241AFDB90C0051CE84 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B05886251AFDB90C0051CE84 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B05886261AFDB90C0051CE84 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B05886271AFDB90C0051CE84 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B05886281AFDB90C0051CE84 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B05886291AFDB90C0051CE84 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B058862A1AFDB90C0051CE84 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B058862B1AFDB90C0051CE84 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B058862C1AFDB90C0051CE84 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B05885E11AFDB4550051CE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05886201AFDB6270051CE84 /* libsqlite3.0.dylib in Frameworks */,
+				B05885EA1AFDB4550051CE84 /* CoreGraphics.framework in Frameworks */,
+				B05885EC1AFDB4550051CE84 /* UIKit.framework in Frameworks */,
+				B05885E81AFDB4550051CE84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05886051AFDB4550051CE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B058860A1AFDB4550051CE84 /* XCTest.framework in Frameworks */,
+				B058860C1AFDB4550051CE84 /* UIKit.framework in Frameworks */,
+				B058860B1AFDB4550051CE84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B05885DB1AFDB4550051CE84 = {
+			isa = PBXGroup;
+			children = (
+				B05885ED1AFDB4550051CE84 /* SQL数据库的使用 */,
+				B058860F1AFDB4550051CE84 /* SQL数据库的使用Tests */,
+				B05885E61AFDB4550051CE84 /* Frameworks */,
+				B05885E51AFDB4550051CE84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B05885E51AFDB4550051CE84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B05885E41AFDB4550051CE84 /* SQL数据库的使用.app */,
+				B05886081AFDB4550051CE84 /* SQL数据库的使用Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B05885E61AFDB4550051CE84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B058861F1AFDB6270051CE84 /* libsqlite3.0.dylib */,
+				B05885E71AFDB4550051CE84 /* Foundation.framework */,
+				B05885E91AFDB4550051CE84 /* CoreGraphics.framework */,
+				B05885EB1AFDB4550051CE84 /* UIKit.framework */,
+				B05886091AFDB4550051CE84 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B05885ED1AFDB4550051CE84 /* SQL数据库的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				B05886211AFDB90C0051CE84 /* fmdb */,
+				B05885F61AFDB4550051CE84 /* LCQAppDelegate.h */,
+				B05885F71AFDB4550051CE84 /* LCQAppDelegate.m */,
+				B05885F91AFDB4550051CE84 /* Main_iPhone.storyboard */,
+				B05885FC1AFDB4550051CE84 /* Main_iPad.storyboard */,
+				B05885FF1AFDB4550051CE84 /* LCQViewController.h */,
+				B05886001AFDB4550051CE84 /* LCQViewController.m */,
+				B05886021AFDB4550051CE84 /* Images.xcassets */,
+				B05885EE1AFDB4550051CE84 /* Supporting Files */,
+			);
+			path = "SQL数据库的使用";
+			sourceTree = "<group>";
+		};
+		B05885EE1AFDB4550051CE84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B05885EF1AFDB4550051CE84 /* SQL数据库的使用-Info.plist */,
+				B05885F01AFDB4550051CE84 /* InfoPlist.strings */,
+				B05885F31AFDB4550051CE84 /* main.m */,
+				B05885F51AFDB4550051CE84 /* SQL数据库的使用-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B058860F1AFDB4550051CE84 /* SQL数据库的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B05886151AFDB4560051CE84 /* SQL______Tests.m */,
+				B05886101AFDB4550051CE84 /* Supporting Files */,
+			);
+			path = "SQL数据库的使用Tests";
+			sourceTree = "<group>";
+		};
+		B05886101AFDB4550051CE84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B05886111AFDB4550051CE84 /* SQL数据库的使用Tests-Info.plist */,
+				B05886121AFDB4550051CE84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B05886211AFDB90C0051CE84 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				B05886221AFDB90C0051CE84 /* FMDatabase.h */,
+				B05886231AFDB90C0051CE84 /* FMDatabase.m */,
+				B05886241AFDB90C0051CE84 /* FMDatabaseAdditions.h */,
+				B05886251AFDB90C0051CE84 /* FMDatabaseAdditions.m */,
+				B05886261AFDB90C0051CE84 /* FMDatabasePool.h */,
+				B05886271AFDB90C0051CE84 /* FMDatabasePool.m */,
+				B05886281AFDB90C0051CE84 /* FMDatabaseQueue.h */,
+				B05886291AFDB90C0051CE84 /* FMDatabaseQueue.m */,
+				B058862A1AFDB90C0051CE84 /* FMDB.h */,
+				B058862B1AFDB90C0051CE84 /* FMResultSet.h */,
+				B058862C1AFDB90C0051CE84 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B05885E31AFDB4550051CE84 /* SQL数据库的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05886191AFDB4560051CE84 /* Build configuration list for PBXNativeTarget "SQL数据库的使用" */;
+			buildPhases = (
+				B05885E01AFDB4550051CE84 /* Sources */,
+				B05885E11AFDB4550051CE84 /* Frameworks */,
+				B05885E21AFDB4550051CE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQL数据库的使用";
+			productName = "SQL数据库的使用";
+			productReference = B05885E41AFDB4550051CE84 /* SQL数据库的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B05886071AFDB4550051CE84 /* SQL数据库的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B058861C1AFDB4560051CE84 /* Build configuration list for PBXNativeTarget "SQL数据库的使用Tests" */;
+			buildPhases = (
+				B05886041AFDB4550051CE84 /* Sources */,
+				B05886051AFDB4550051CE84 /* Frameworks */,
+				B05886061AFDB4550051CE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B058860E1AFDB4550051CE84 /* PBXTargetDependency */,
+			);
+			name = "SQL数据库的使用Tests";
+			productName = "SQL数据库的使用Tests";
+			productReference = B05886081AFDB4550051CE84 /* SQL数据库的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B05885DC1AFDB4550051CE84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCQ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = liuchaoqian;
+				TargetAttributes = {
+					B05886071AFDB4550051CE84 = {
+						TestTargetID = B05885E31AFDB4550051CE84;
+					};
+				};
+			};
+			buildConfigurationList = B05885DF1AFDB4550051CE84 /* Build configuration list for PBXProject "SQL数据库的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B05885DB1AFDB4550051CE84;
+			productRefGroup = B05885E51AFDB4550051CE84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B05885E31AFDB4550051CE84 /* SQL数据库的使用 */,
+				B05886071AFDB4550051CE84 /* SQL数据库的使用Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B05885E21AFDB4550051CE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05885FE1AFDB4550051CE84 /* Main_iPad.storyboard in Resources */,
+				B05886031AFDB4550051CE84 /* Images.xcassets in Resources */,
+				B05885FB1AFDB4550051CE84 /* Main_iPhone.storyboard in Resources */,
+				B05885F21AFDB4550051CE84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05886061AFDB4550051CE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05886141AFDB4550051CE84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B05885E01AFDB4550051CE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05885F41AFDB4550051CE84 /* main.m in Sources */,
+				B058862F1AFDB90C0051CE84 /* FMDatabasePool.m in Sources */,
+				B05886011AFDB4550051CE84 /* LCQViewController.m in Sources */,
+				B05886301AFDB90C0051CE84 /* FMDatabaseQueue.m in Sources */,
+				B05885F81AFDB4550051CE84 /* LCQAppDelegate.m in Sources */,
+				B058862D1AFDB90C0051CE84 /* FMDatabase.m in Sources */,
+				B05886311AFDB90C0051CE84 /* FMResultSet.m in Sources */,
+				B058862E1AFDB90C0051CE84 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05886041AFDB4550051CE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05886161AFDB4560051CE84 /* SQL______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B058860E1AFDB4550051CE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B05885E31AFDB4550051CE84 /* SQL数据库的使用 */;
+			targetProxy = B058860D1AFDB4550051CE84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B05885F01AFDB4550051CE84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B05885F11AFDB4550051CE84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B05885F91AFDB4550051CE84 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B05885FA1AFDB4550051CE84 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B05885FC1AFDB4550051CE84 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B05885FD1AFDB4550051CE84 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B05886121AFDB4550051CE84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B05886131AFDB4550051CE84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B05886171AFDB4560051CE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B05886181AFDB4560051CE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B058861A1AFDB4560051CE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQL数据库的使用/SQL数据库的使用-Prefix.pch";
+				INFOPLIST_FILE = "SQL数据库的使用/SQL数据库的使用-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B058861B1AFDB4560051CE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQL数据库的使用/SQL数据库的使用-Prefix.pch";
+				INFOPLIST_FILE = "SQL数据库的使用/SQL数据库的使用-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B058861D1AFDB4560051CE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQL数据库的使用.app/SQL数据库的使用";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQL数据库的使用/SQL数据库的使用-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SQL数据库的使用Tests/SQL数据库的使用Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B058861E1AFDB4560051CE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQL数据库的使用.app/SQL数据库的使用";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQL数据库的使用/SQL数据库的使用-Prefix.pch";
+				INFOPLIST_FILE = "SQL数据库的使用Tests/SQL数据库的使用Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B05885DF1AFDB4550051CE84 /* Build configuration list for PBXProject "SQL数据库的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05886171AFDB4560051CE84 /* Debug */,
+				B05886181AFDB4560051CE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05886191AFDB4560051CE84 /* Build configuration list for PBXNativeTarget "SQL数据库的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B058861A1AFDB4560051CE84 /* Debug */,
+				B058861B1AFDB4560051CE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B058861C1AFDB4560051CE84 /* Build configuration list for PBXNativeTarget "SQL数据库的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B058861D1AFDB4560051CE84 /* Debug */,
+				B058861E1AFDB4560051CE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B05885DC1AFDB4550051CE84 /* Project object */;
+}
